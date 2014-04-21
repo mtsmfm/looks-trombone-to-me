@@ -1,3 +1,9 @@
 $(function() {
-  trombonize('ul,li', '.body');
+  $('body').livequery(
+    // ul for when messages initialized, li for when message added.
+    'ul,li',
+    function(elem) {
+      $(elem).trombonize();
+    }
+  );
 });
