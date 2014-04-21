@@ -4,7 +4,7 @@ window.trombonize = function(parentSelector, bodySelector) {
     parentSelector,
     function(elem) {
       $(elem).find(bodySelector).each(function(){
-        $(this).html($(this).html().replace(/:trombone:/, trombone));
+        $(this).html($(this).html().replace(/(:trombone:)(?=[^>]*(?:<|$))/, trombone));
       })
     }
   );
