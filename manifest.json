@@ -2,9 +2,15 @@
   "name": "Looks Trombone To Me",
   "version": "0.0.1",
   "description": "Trombone",
-  "content_scripts": [{
-    "matches": ["https://github.com/*"],
-    "js": ["jquery.min.js", "trombone.js"]
-  }],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["jquery.min.js", "jquery.livequery.min.js", "trombone.js", "github/trombone.js"]
+    },
+    {
+      "matches": ["https://idobata.io/*"],
+      "js": ["jquery.min.js", "jquery.livequery.min.js", "trombone.js", "idobata/trombone.js"]
+    }
+  ],
   "manifest_version": 2
 }
