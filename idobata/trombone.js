@@ -3,7 +3,7 @@ $(function() {
     // ul for when messages initialized, li for when message added.
     'ul,li',
     function(elem) {
-      $(elem).trombonize();
+      $(elem).find('.body:contains(":trombone:")').trombonize();
     }
   );
 });
