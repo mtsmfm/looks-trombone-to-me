@@ -1,6 +1,6 @@
 {
   "name": "Looks Trombone To Me",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Trombone",
   "content_scripts": [
     {
