@@ -1,3 +1,3 @@
 $(function () {
-  $('body').livetrombone({parentSelector: 'div', bodySelector: '.comment-body'})
+  $('body').livetrombone({parentSelector: 'div', bodySelector: 'p'})
 });
