@@ -1,8 +1,3 @@
 $(function () {
-  $('body').livequery(
-    'div',
-    function(elem) {
-      $(elem).find('.comment-body:contains(":trombone:")').trombonize();
-    }
-  );
+  $('body').livetrombone({parentSelector: 'div', bodySelector: '.comment-body'})
 });
