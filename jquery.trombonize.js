@@ -7,6 +7,7 @@
     });
     return this;
   };
+
   $.fn.livetrombone = function (options) {
     var settings = $.extend({
       parentSelector: 'div',
