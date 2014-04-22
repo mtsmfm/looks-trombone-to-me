@@ -1,3 +1,3 @@
-$(function() {
-  trombonize('div', '.comment-body');
+$(function () {
+  $('body').livetrombone({parentSelector: 'div', bodySelector: 'p'});
 });
