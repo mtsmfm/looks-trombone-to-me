@@ -1,3 +1,3 @@
 $(function () {
-  $('body').livetrombone({parentSelector: 'div', bodySelector: 'p'})
+  $('body').livetrombone({parentSelector: 'div', bodySelector: 'p'});
 });
